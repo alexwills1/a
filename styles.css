@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+body {
+  cursor: url(cursor.cur), pointer;
+  height: 100%;
+  background-color: #f2f2f2;
+  margin: 0;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.header {
+  background-color: #000000;
+  height: 90px;
+  font-family: 'Indie Flower', cursive;
+}
+.nav {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+}
+
+.logo {
+  float: left;
+  font-size: 3rem;
+  margin-top: 15px;
+  margin-left: 450px;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.links {
+  float: right;
+  margin-top: 35px;
+  font-size: 0.75rem;
+  color: #4b4e61;
+  font-family: 'Indie Flower', cursive;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.banner {
+  background-color: white;
+  text-align: center;
+  border-bottom: 5px solid #000000;
+  padding: 5px 0;
+}
+
+.hello {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+  border-bottom: 3px solid #000000;
+}
+
+.portfolio {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+  overflow: hidden;
+  border-bottom: 3px solid #000000;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 3px solid #000000;
+    float: left;
+    width: 400px;
+    overflow: hidden;
+}
+
+div.gallery:hover {
+    border: 3px solid #000000;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.caption {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+  border-bottom: 3px solid #000000;
+}
+
+.contact {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+
+}
+
+.contact a{
+  text-decoration: none;
+}
+
+.inner {
+	padding-top: 30px;
+	padding-bottom: 22px;
+  height: 90px;
+  background-color: #000000;
+	}
+
+.inner p {
+	color: white;
+  float: left;
+
+	}
+
+.go-top {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	color: #ffffff;
+	background-color: #000000;
+	font-size: 12px;
+	padding: 1em;
+	display: none;
+  font-family: 'Indie Flower', cursive;
+  text-decoration: none;
+  border: 1px solid white;
+	}
+
+.go-top:hover {
+	color: #ffffff;
+	background-color: #000000;
+	-o-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	}
+
+  @media screen and (max-width: 720px) {
+    .logo {
+      float: none;
+      text-align: center;
+      margin-top: 0;
+      padding: 0px;
+      margin-top: 0px;
+      margin-left: 0px;
+      font-size: 2rem;
+    }
+
+    .links {
+      float: none;
+      margin-top: 0px;
+      text-align: center;
+
+    }
+
+    .hello{
+      float: none;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .portfolio{
+      float: none;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    div.gallery {
+        margin: 5px;
+        margin-left: 50px;
+        border: 3px solid #000000;
+        float: none;
+        text-align: center;
+        width: 400px;
+        overflow: hidden;
+    }
+
+    .caption{
+      float: none;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .contact{
+      float: none;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+
+
+  }
